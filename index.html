@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Mi Primer Proyecto</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Mi primera pagina WEB</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">
+        Aprendiendo desarrollo WEB
+    </h2>
+
+    <hr>
+
+    <article class="container">
+        <h3>El camino a aprender a programar</h3>
+        <img class="image" src="/assets/img/img (2).jpg" alt="programacion">
+        <p>
+            <b>Alonso</b> nació en la vibrante ciudad costera de <b>Cartagena, Colombia,</b> donde creció rodeado de la riqueza cultural y la
+            energía del Caribe. Desde joven, mostró un interés innato por la tecnología y la creatividad, pasando horas explorando
+            las posibilidades que ofrecía el mundo digital.
+            
+            Después de graduarse de la escuela secundaria, <b>Alonso</b> se mudó a la vecina ciudad de <em>Barranquilla</em> en busca de nuevas
+            oportunidades. Allí, se encontró inmerso en un entorno dinámico y emprendedor que despertó aún más su curiosidad por el
+            mundo de la tecnología.
+            
+            A pesar de no tener acceso a recursos económicos para una educación formal en desarrollo web, <b>Alonso</b> no se
+            desanimó. <i>Con determinación y un espíritu autodidacta,</i> decidió aprovechar al máximo los recursos disponibles en 
+            internet para aprender por su cuenta.
+        </p>
+        <img class="image2" src="assets/img/img (3).jpg" alt="lineas de codigo">
+        <p>
+            <strong>Dedicó largas horas a explorar tutoriales en línea,</strong> cursos gratuitos y documentación técnica, absorbiendo todo lo que
+            podía sobre <b>HTML, CSS, JavaScript y otras tecnologías web.</b> A medida que su conocimiento y habilidades crecían, comenzó a
+            trabajar en proyectos personales para poner en práctica lo que aprendía y construir un portafolio de su trabajo.
+            
+            La comunidad en línea se convirtió en su aliada, participando activamente en foros de desarrollo web, grupos de
+            discusión y redes sociales donde pudo hacer preguntas, compartir conocimientos y colaborar con otros aspirantes a
+            desarrolladores.
+            
+            Con el tiempo, <b>Alonso</b> se convirtió en un desarrollador web competente y apasionado. A pesar de los desafíos y obstáculos
+            que enfrentó en su camino, su determinación y perseverancia finalmente dieron frutos.
+        </p>
+        <img class="image" src="assets/img/img (4).jpg" alt="perseverancia">
+        <p>
+            Hoy en día, <b>Alonso</b> trabaja como desarrollador web en una empresa de tecnología líder. Su historia es un testimonio
+            inspirador de cómo la perseverancia, la pasión y el trabajo duro pueden abrir puertas hacia un futuro brillante, incluso
+            cuando los recursos son escasos. Alonso demuestra que con determinación y dedicación, cualquier cosa es posible, incluso
+            alcanzar el éxito en el competitivo mundo del desarrollo web.
+        </p>
+    </article>
+    <br><br><br>
+
+    <hr>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+
+    
+</body>
+</html>
